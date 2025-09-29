@@ -1,0 +1,47 @@
+{
+    "project_info": {
+      "project_number": "683075246607",
+      "project_id": "respondr-me",
+      "storage_bucket": "respondr-me.firebasestorage.app"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:683075246607:android:f904a82ddd860cff60e17a",
+          "android_client_info": {
+            "package_name": "com.app.Respondr"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "683075246607-hh2h39ssq40kbiqi0si22f7tsa2hol2u.apps.googleusercontent.com",
+            "client_type": 1,
+            "android_info": {
+              "package_name": "com.app.Respondr",
+              "certificate_hash": "c19ef5db96a22f5169457d59ab82e5e871047762"
+            }
+          },
+          {
+            "client_id": "683075246607-s14kg739nh0d1ri5aeihlh8l5uffu03q.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCuODS6ZlmCa85b-7_bhNHxGtSoJPFm2oo"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "683075246607-s14kg739nh0d1ri5aeihlh8l5uffu03q.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

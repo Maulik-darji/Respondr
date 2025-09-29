@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Respondr</string>
+    <string name="default_web_client_id">683075246607-YOUR_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+</resources>
