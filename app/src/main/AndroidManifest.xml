@@ -8,6 +8,13 @@
     
     <!-- Phone permission for phone authentication -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <!-- Contact permission for syncing contacts -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    
+    <!-- Location permissions for maps -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -18,6 +25,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Respondr">
+        
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCjVsj3flP-sqYVTSC68PB8aL_oP04uF-I" />
         
         <!-- Landing Activity -->
         <activity
@@ -44,6 +56,18 @@
         <!-- Sign Up Activity -->
         <activity
             android:name=".SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Respondr" />
+        
+        <!-- Onboarding Activity -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Respondr" />
+        
+        <!-- Contact Permission Activity -->
+        <activity
+            android:name=".ContactPermissionActivity"
             android:exported="false"
             android:theme="@style/Theme.Respondr" />
         

@@ -6,4 +6,7 @@
     <color name="primary_dark">#FF3700B3</color>
     <color name="accent_color">#FF03DAC5</color>
     <color name="spotify_green">#FF1DB954</color>
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="sos_red">#FFE53E3E</color>
 </resources>

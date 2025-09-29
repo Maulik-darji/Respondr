@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    
+    <!-- Clear sphere background -->
+    <path
+        android:fillColor="#E6F3FF"
+        android:strokeColor="#B3D9FF"
+        android:strokeWidth="2"
+        android:pathData="M40,5 A35,35 0 1,1 40,75 A35,35 0 1,1 40,5 Z" />
+    
+    <!-- Sync arrows -->
+    <path
+        android:fillColor="#FF4444"
+        android:pathData="M25,30 L35,30 L30,25 L35,30 L30,35 Z" />
+    <path
+        android:fillColor="#FF4444"
+        android:pathData="M55,50 L45,50 L50,45 L45,50 L50,55 Z" />
+    
+    <!-- Circular arrow path -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF4444"
+        android:strokeWidth="3"
+        android:pathData="M40,15 A25,25 0 1,1 40,65 A25,25 0 1,1 40,15 Z" />
+</vector>

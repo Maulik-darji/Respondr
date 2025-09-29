@@ -240,7 +240,7 @@ public class SignUpActivity extends AppCompatActivity {
     private void updateUI(FirebaseUser user) {
         if (user != null) {
             Toast.makeText(this, "Welcome to Respondr! " + user.getEmail(), Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, OnboardingActivity.class);
             startActivity(intent);
             finish();
         }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="18dp"
+    android:height="18dp"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+    
+    <!-- Squiggle shape -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M2,9 Q4,5 8,9 Q12,13 16,9" />
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M2,13 Q4,9 8,13 Q12,17 16,13" />
+</vector>
